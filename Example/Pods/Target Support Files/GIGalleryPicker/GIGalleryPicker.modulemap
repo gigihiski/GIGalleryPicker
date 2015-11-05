@@ -1,0 +1,6 @@
+framework module GIGalleryPicker {
+  umbrella header "GIGalleryPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

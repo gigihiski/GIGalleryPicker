@@ -1,0 +1,25 @@
+{
+  "name": "GIGalleryPicker",
+  "version": "0.1.0",
+  "summary": "A short description of GIGalleryPicker.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GIGalleryPicker",
+  "license": "MIT",
+  "authors": {
+    "Gigih Iski Prasetyawan": "gigihiskiprasetyawan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GIGalleryPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "GIGalleryPicker": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

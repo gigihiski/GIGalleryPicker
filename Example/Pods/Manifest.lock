@@ -1,0 +1,14 @@
+PODS:
+  - GIGalleryPicker (0.1.0)
+
+DEPENDENCIES:
+  - GIGalleryPicker (from `../`)
+
+EXTERNAL SOURCES:
+  GIGalleryPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GIGalleryPicker: 2ff1bcab435b5944cc6315a497f8e8ff3218e156
+
+COCOAPODS: 0.38.2

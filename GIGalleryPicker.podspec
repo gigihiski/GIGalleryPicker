@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "GIGalleryPicker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GIGalleryPicker."
+  s.summary          = "Library to get a pictures or videos from your iOS Picture Gallery and take a picture or video in time."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  			GIGalleryPicker is a library to get a pictures or videos from your iOS Picture Gallery and take a picture or video in time.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GIGalleryPicker"
+  s.homepage         = "https://github.com/gigihiski/GIGalleryPicker"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Gigih Iski Prasetyawan" => "gigihiskiprasetyawan@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GIGalleryPicker.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/gigihiski/GIGalleryPicker.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/gigihiski'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
